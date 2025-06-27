@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(60, 62, 61);
+}
+@font-face {
+  font-family: 'fonts creepy2';
+  src: url('fonts/fonts\ creepy2.otf') format('truetype');
+}
+@font-face {
+  font-family: 'fonts creepy1';
+  src: url('fonts/fonts\ creepy1.ttf') format('truetype');
+}
+
+body {
+  background-color: rgb(60, 62, 61);
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-family: fonts creepy1;
+    font-weight: 700;
+    text-align: center;
+
+   
+}
+
+p{
+    font-family: fonts creepy2;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 32.5px;
+    text-align: center;
+}
+
+
