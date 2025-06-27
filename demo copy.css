@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(68, 53, 83, 0.817);
+    background-color: rgb(60, 62, 61);
 }
 @font-face {
   font-family: 'fonts creepy2';
@@ -10,9 +10,11 @@ body{
   src: url('fonts/fonts\ creepy1.ttf') format('truetype');
 }
 
+
+
 h1{
     color: rgb(255, 0, 0);
-    font-size: 100px;
+    font-size: 50px;
     font-family: fonts creepy1;
     font-weight: 700;
     text-align: center;
@@ -28,8 +30,5 @@ p{
     text-align: center;
 }
 
-.sd{
-    line-height: 122.2px;
-    font-size: 50px;
-  color: brown;
-}
+
+
