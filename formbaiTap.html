@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="form-section"> <div class="form-wrapper"> 
+            <form method="get" action="#">
+                    <div class="form-group"> 
+                        <label for="firstName"></label>
+                        <input type="text"  name="first_name" placeholder="first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName"></label>
+                        <input type="text"  name="last_name" placeholder="last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="addressLine1"></label>
+                        <textarea id="addressLine1" name="address_line_1" placeholder="Address Line 1"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="addressLine2"></label>
+                        <textarea id="addressLine2" name="address_line_2" placeholder="Address Line 2"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="countrySelect"></label>
+                        <select name="country" id="countrySelect">
+                            <option value="" selected disabled hidden>Country</option>
+                            <option value="VietNam">VietNam</option>
+                            <option value="Japan">Japan</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="citySelect"></label>
+                        <select name="city" id="citySelect">
+                            <option value="" selected disabled hidden>City</option>
+                            <option value="hanoi">Hanoi</option>
+                            <option value="haiphong">Hai Phong</option>
+                            <option value="bentre">Ben Tre</option>
+                            <option value="laocai">Lao Cai</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="stateSelect"></label>
+                        <select name="state" id="stateSelect">
+                            <option value="" selected disabled hidden>State</option>
+                            <option value="hohoankiem">Ho Hoan Kiem</option>
+                            <option value="haibachung">Hai Ba Trung</option>
+                            <option value="sdc">SDC</option>
+                            <option value="phonglinhtong">Phong Linh Tong</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="zipSelect"></label>
+                        <select name="zip" id="zipSelect">
+                            <option value="" selected disabled hidden>Zip</option>
+                            <option value="4444">4444</option>
+                            <option value="6666">6666</option>
+                            <option value="11111">11111</option>
+                            <option value="9999">9999</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber"></label>
+                        <input type="tel" id="phoneNumber" name="phonenumber" placeholder="phone number">
+                    </div>
+                    <div class="form-group button-group"> <button type="submit">Continue To Billing Information</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
