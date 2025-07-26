@@ -1,6 +1,6 @@
 
 var soNgauNhien = Math.random(); 
-soNgauNhien = soNgauNhien * 6;   
+soNgauNhien = soNgauNhien * 99;   
 soNgauNhien = parseInt(soNgauNhien); 
 
 alert("Chào mừng bạn đến với trò chơi dự đoán số!");
@@ -15,7 +15,7 @@ soDuDoan = parseInt(soDuDoan);
 var soTienDauTu = prompt("Bạn muốn đặt cược bao nhiêu tiền?");
 
 soTienDauTu = parseFloat(soTienDauTu); 
-if (isNaN(soDuDoan) || soDuDoan < 0 || soDuDoan > 6) {
+if (isNaN(soDuDoan) || soDuDoan < 0 || soDuDoan > 99) {
     alert("Số dự đoán không hợp lệ. Vui lòng nhập một số từ 0 đến 99.");
 } else if (isNaN(soTienDauTu) || soTienDauTu <= 0) {
     alert("Số tiền đặt cược không hợp lệ. Vui lòng nhập một số dương.");
